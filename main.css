@@ -34,14 +34,17 @@ body {
 }
 
 
+
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
+/* base class */
 .carousel {
   height: 600px;
   margin-bottom: 60px;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -58,6 +61,33 @@ body {
   left: 0;
   min-width: 100%;
   height: 600px;
+}
+
+
+/* BIOGRAPHIES
+-------------------------------------------------- */
+
+#biographies {
+  height: 1200px;
+  margin-bottom: 60px;
+}
+
+#biography-listings {
+  margin-top:  100px;
+  width: 1200px;
+
+}
+
+#biography-listings dt {
+  width: 200px;
+ /* font-size: 21px; */
+}
+
+#biography-listings dd {
+  width: 800px;
+  font-size: 18px;
+  padding-left: 100px;
+  margin-bottom:50px;
 }
 
 

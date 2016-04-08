@@ -68,22 +68,54 @@ body {
 -------------------------------------------------- */
 
 #biographies {
-  height: 1200px;
+  height: 1300px;
   margin-bottom: 60px;
+  background-color: #777;
 }
 
-#biography-listings {
+
+/* CONTACTS
+-------------------------------------------------- */
+
+#contacts {
+  height:700px;
+  margin-bottom: 60px;
+  background-color: #777;
+}
+
+#contacts .address {
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+
+.contacts-caption {
+  text-align:center;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 10px;
+  }
+
+
+#inquiries-email {
+	color:yellow;
+}
+
+/* LISTINGS
+-------------------------------------------------- */
+
+.listings {
   margin-top:  100px;
   width: 1200px;
+  color: #f5f5f5;
 
 }
 
-#biography-listings dt {
-  width: 200px;
+.listings dt {
+  width: 230px;
  /* font-size: 21px; */
 }
 
-#biography-listings dd {
+.listings dd {
   width: 800px;
   font-size: 18px;
   padding-left: 100px;

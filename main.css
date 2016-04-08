@@ -68,19 +68,28 @@ body {
 -------------------------------------------------- */
 
 #biographies {
-  height: 1300px;
+  height: 1250px;
   margin-bottom: 60px;
   background-color: #777;
+  min-width: 100%;
 }
 
+#biography-listings {
+}
+
+.biographies-inner {
+	min-width: 100%;
+	margin-left: 30%;
+}	
 
 /* CONTACTS
 -------------------------------------------------- */
 
 #contacts {
-  height:700px;
+  height:600px;
   margin-bottom: 60px;
   background-color: #777;
+  min-width: 100%;
 }
 
 #contacts .address {
@@ -93,12 +102,18 @@ body {
   font-weight: bold;
   font-size: 24px;
   padding-bottom: 10px;
+  margin-left: 40%;
   }
 
 
 #inquiries-email {
 	color:yellow;
 }
+
+.contacts-inner {
+	min-width: 100%;
+	margin-left: 30%;
+}	
 
 /* LISTINGS
 -------------------------------------------------- */
@@ -119,7 +134,7 @@ body {
   width: 800px;
   font-size: 18px;
   padding-left: 100px;
-  margin-bottom:50px;
+  margin-bottom:30px;
 }
 
 

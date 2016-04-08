@@ -82,11 +82,13 @@ body {
 }
 
 #biography-listings {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
 
 .biographies-inner {
 	min-width: 100%;
-	margin-left: 30%;
 }	
 
 /* CONTACTS
@@ -99,6 +101,14 @@ body {
   min-width: 100%;
 }
 
+#contact-listings {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+
+}
+
 #contacts .address {
   font-weight: bold;
   margin-bottom: 10px;
@@ -109,7 +119,6 @@ body {
   font-weight: bold;
   font-size: 24px;
   padding-bottom: 10px;
-  margin-left: 40%;
   }
 
 
@@ -119,7 +128,7 @@ body {
 
 .contacts-inner {
 	min-width: 100%;
-	margin-left: 30%;
+	/* margin-left: 30%; */
 }	
 
 /* LISTINGS

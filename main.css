@@ -75,39 +75,35 @@ body {
 -------------------------------------------------- */
 
 #biographies {
-  height: 1250px;
+  height: 100%;
   margin-bottom: 60px;
   background-color: #777;
   min-width: 100%;
 }
 
+/*
 #biography-listings {
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 55%;
 }
+*/
+
 
 .biographies-inner {
-	min-width: 100%;
+	width: 100%;
 }	
 
 /* CONTACTS
 -------------------------------------------------- */
 
 #contacts {
-  height:600px;
+  height:100%;
   margin-bottom: 60px;
   background-color: #777;
   min-width: 100%;
 }
 
-#contact-listings {
-
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-
-}
 
 #contacts .address {
   font-weight: bold;
@@ -127,31 +123,31 @@ body {
 }
 
 .contacts-inner {
-	min-width: 100%;
-	/* margin-left: 30%; */
+	width: 100%;
 }	
 
 /* LISTINGS
 -------------------------------------------------- */
 
 .listings {
-  margin-top:  100px;
-  width: 1200px;
+  margin-top:  130px;
   color: #f5f5f5;
+  padding-left: 15%;
+  padding-right: 15%;
 
 }
+
 
 .listings dt {
-  width: 230px;
- /* font-size: 21px; */
 }
 
+
+
 .listings dd {
-  width: 800px;
-  font-size: 18px;
-  padding-left: 100px;
   margin-bottom:30px;
 }
+
+
 
 
 /* Content
